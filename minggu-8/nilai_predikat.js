@@ -1,6 +1,6 @@
 // percabangan if else if
-var nilai = prompt("Masukkan IPK , 2.00 - 4.00");
-var ket;
+let nilai = prompt("Masukkan IPK , 2.00 - 4.00");
+let ket;
 if (nilai >= 2.00 && nilai <= 2.75) {
 	ket = "Memuaskan";
 } else if (nilai >= 2.76 && nilai <= 3.50) {
